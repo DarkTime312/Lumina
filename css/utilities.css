@@ -1,0 +1,13 @@
+.u-fixed-width--big {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.u-fixed-width--medium {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.u-highlight {
+  background-color: var(--color-accent);
+}

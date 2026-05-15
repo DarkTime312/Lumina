@@ -1,0 +1,14 @@
+.social__title {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.social__list {
+  display: flex;
+  gap: 0.5rem;
+  list-style: none;
+}
+
+.social__link {
+  color: #333;
+}

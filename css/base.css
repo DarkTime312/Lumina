@@ -1,0 +1,17 @@
+:root {
+  --color-accent: #fcf5e9;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding-block: 1rem;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
+}
