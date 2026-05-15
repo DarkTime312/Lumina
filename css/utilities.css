@@ -4,6 +4,11 @@
 }
 
 .u-fixed-width--medium {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+.u-fixed-width--small {
   max-width: 850px;
   margin: 0 auto;
 }

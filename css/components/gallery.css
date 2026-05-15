@@ -1,11 +1,14 @@
 .gallery {
+  margin: 0 2rem 2.5rem;
+}
+
+.gallery__content {
   --gallery-gap: 1rem;
 
   display: flex;
   flex-wrap: wrap;
   gap: var(--gallery-gap);
   justify-content: center;
-  margin: 0 2rem 2.5rem;
 }
 
 .gallery__image {
