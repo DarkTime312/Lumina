@@ -11,14 +11,16 @@
   justify-content: center;
 }
 
-.gallery__image {
+.gallery__link {
   flex-basis: calc((100% / 3) - 2 * var(--gallery-gap));
-  min-width: 0;
-  min-height: 0;
-  object-fit: cover;
-  border-radius: 10px;
 
   @media screen and (width <= 768px) {
     flex-basis: calc((100% / 2) - var(--gallery-gap));
   }
+}
+
+.gallery__image {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
 }
