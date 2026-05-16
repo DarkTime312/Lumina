@@ -1,12 +1,11 @@
 .top-header {
-  margin-top: 1.5rem;
+  padding: 1.5rem;
 }
 
 .top-header__content {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-inline: 1.5rem;
 
   @media screen and (width <= 768px) {
     flex-direction: column;

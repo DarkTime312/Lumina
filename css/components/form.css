@@ -1,0 +1,23 @@
+.form__input,
+.form__message {
+  width: 100%;
+  padding: 0.8em;
+  margin-bottom: 1.2rem;
+  font: inherit;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.form__submit-btn {
+  width: 100%;
+  padding: 1em 2em;
+  font: inherit;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid black;
+}
+
+.form__submit-btn:hover, .form__submit-btn:focus-visible {
+    color: white;
+    background-color: #333;
+}

@@ -1,0 +1,14 @@
+.questions {
+  padding: 3.5rem 1.5rem 8rem;
+}
+
+.questions__main-title {
+  margin-bottom: 2.5rem;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.questions__description {
+  margin-bottom: 2rem;
+  text-align: center;
+}

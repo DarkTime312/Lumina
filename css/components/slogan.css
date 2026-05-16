@@ -11,3 +11,12 @@
     font-size: 1.8rem;
   }
 }
+
+.slogan--dark {
+  color: white;
+  background-color: #333;
+
+  & .u-highlight {
+    color: #333;
+  }
+}

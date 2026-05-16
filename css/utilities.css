@@ -14,5 +14,14 @@
 }
 
 .u-highlight {
+  padding-inline: 0.1em;
   background-color: var(--color-accent);
+}
+
+.u-sr-only {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  clip-path: inset(50%);
 }
