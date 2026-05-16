@@ -1,15 +1,15 @@
-.u-fixed-width--big {
-  max-width: 1400px;
+.u-fixed-width--normal {
+  max-width: var(--container-normal-width);
   margin: 0 auto;
 }
 
-.u-fixed-width--medium {
-  max-width: 1150px;
+.u-fixed-width--wide {
+  max-width: var(--container-wide-width);
   margin: 0 auto;
 }
 
-.u-fixed-width--small {
-  max-width: 850px;
+.u-fixed-width--narrow {
+  max-width: var(--container-narrow-width);
   margin: 0 auto;
 }
 

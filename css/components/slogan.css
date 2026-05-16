@@ -4,6 +4,7 @@
   height: 500px;
   padding-inline: 2rem;
   font-size: 3rem;
+  line-height: 1.4;
   text-align: center;
 
   @media screen and (width <= 768px) {

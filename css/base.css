@@ -1,6 +1,9 @@
 :root {
   --color-accent: #fcf5e9;
   --color-grey-600: #333;
+  --container-normal-width: 1150px;
+  --container-wide-width: 1400px;
+  --container-narrow-width: 850px;
 }
 
 *,
