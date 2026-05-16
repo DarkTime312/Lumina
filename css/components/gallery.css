@@ -12,7 +12,7 @@
 }
 
 .gallery__link {
-  flex-basis: calc((100% / 3) - 2 * var(--gallery-gap));
+  flex-basis: calc((100% / 3) - var(--gallery-gap));
 
   @media screen and (width <= 768px) {
     flex-basis: calc((100% / 2) - var(--gallery-gap));
@@ -23,4 +23,8 @@
   width: 100%;
   object-fit: cover;
   border-radius: 10px;
+
+  &:hover {
+    opacity: 0.9;
+  }
 }

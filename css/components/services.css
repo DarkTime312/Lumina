@@ -13,7 +13,7 @@
   text-align: center;
 }
 
-.services__row {
+.services__flex {
   display: flex;
   gap: 2rem;
 
