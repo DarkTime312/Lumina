@@ -19,5 +19,5 @@
 
 .form__submit-btn:hover, .form__submit-btn:focus-visible {
     color: white;
-    background-color: #333;
+    background-color: var(--color-grey-600);
 }

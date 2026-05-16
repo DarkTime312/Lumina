@@ -1,6 +1,6 @@
 .services {
   color: white;
-  background-color: #333;
+  background-color: var(--color-grey-600);
 }
 
 .services__content {

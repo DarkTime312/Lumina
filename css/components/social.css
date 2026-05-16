@@ -10,5 +10,5 @@
 }
 
 .social__link {
-  color: #333;
+  color: var(--color-grey-600);
 }

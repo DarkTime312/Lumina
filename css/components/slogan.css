@@ -14,9 +14,9 @@
 
 .slogan--dark {
   color: white;
-  background-color: #333;
+  background-color: var(--color-grey-600);
 
   & .u-highlight {
-    color: #333;
+    color: var(--color-grey-600);
   }
 }
